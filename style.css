@@ -30,7 +30,7 @@ body {
 }
 
 .dlogo {
-padding-left: min(2em, 100%);
+padding-left: min(2em, 10%);
   cursor: pointer;
 }
 
@@ -58,9 +58,15 @@ font-size: 1rem;
   margin: 80px 56px 80px 98px;
 }
 
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .login > h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: rgb(75, 75, 75);
-  
+text-align: center;
 }
+

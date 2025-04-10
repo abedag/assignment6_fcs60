@@ -112,3 +112,12 @@ text-align: center;
   height: 7.7vh;
   border-bottom: 2px solid rgb(182, 177, 177);
 }
+
+.main-count {
+  width: 1100;
+  height: 80px;
+  border-top: 2px solid rgb(219, 219, 219);
+  border-bottom: 2px solid rgb(219, 219, 219);
+  padding: 0 40px;
+}
+

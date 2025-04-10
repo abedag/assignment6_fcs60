@@ -70,3 +70,26 @@ font-size: 1rem;
 text-align: center;
 }
 
+.get-started {
+  background-color: rgb(88, 204, 2);
+  color: white;
+  font-weight: bolder;
+  font-size: 100%;
+  margin-top: 20px;
+  width: 25vw;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  right: 0;
+  border-radius: 12px;
+  border: transparent;
+  border-bottom: 4px solid rgb(73, 167, 1);
+  border-top: 4px solid rgb(88, 204, 2);
+
+}
+
+.get-started:active {
+  border-top: 2px solid white;
+  border-bottom: 4px solid rgb(88, 204, 2);
+}
+

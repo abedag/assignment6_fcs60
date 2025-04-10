@@ -4,3 +4,10 @@
   padding: 0;
 }
 
+.web-head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 2px solid rgb(219, 219, 219);
+}

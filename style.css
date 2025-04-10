@@ -130,3 +130,10 @@ text-align: center;
   justify-content: space-around;
 }
 
+.countries {
+  display: flex;
+  gap: 20px; /* optional spacing between items */
+  list-style: none;
+  padding: 0;
+}
+

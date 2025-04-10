@@ -121,3 +121,12 @@ text-align: center;
   padding: 0 40px;
 }
 
+.mas-count {
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items:normal;
+  justify-content: space-around;
+}
+

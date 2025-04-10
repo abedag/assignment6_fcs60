@@ -23,15 +23,21 @@ body {
 .nav-container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 67px;
+  padding: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .dlogo {
 padding-left: 32px;
   cursor: pointer;
+}
+
+.dlogo > img {
+  width: 40%;
+  height: auto;
 }
 
 .language-site {
@@ -40,15 +46,28 @@ background: transparent;
 color: rgb(182, 177, 177);
 font-weight: 700;
 font-size: 1rem;
+white-space: nowrap;
 }
 
 .login-container {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-  width: 988px;
-  gap: 80px;
-  padding: 48px 0;
+  flex-wrap: wrap;
+
+  width: 90%;
+  max-width: 1200px;
+  gap: 80vw;
+  padding: 5vh 5vw;
+  margin: 80px auto 0 auto;
 }
+
+.login-container > img {
+max-width: 100%;
+height: auto;
+flex: 1 1 300px;
+
+}
+
 

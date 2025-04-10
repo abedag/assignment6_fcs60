@@ -29,3 +29,16 @@ body {
   align-items: center;
 }
 
+.dlogo {
+padding-left: 32px;
+  cursor: pointer;
+}
+
+.language-site {
+border: transparent;
+background: transparent;
+color: rgb(160, 154, 154);
+font-weight: 700;
+font-size: 1rem;
+padding-right: 20px;
+}

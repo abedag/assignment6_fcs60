@@ -93,3 +93,22 @@ text-align: center;
   border-bottom: 4px solid rgb(88, 204, 2);
 }
 
+.login-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(4, 180, 180);
+  font-weight: bolder;
+  font-size: 100%;
+  width: 25vw;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  right: 0;
+  border-radius: 12px;
+  border: 2px solid rgb(182, 177, 177);
+  border-bottom: 4px solid rgb(182, 177, 177);
+}
+
+.login-button:active {
+  height: 7.7vh;
+  border-bottom: 2px solid rgb(182, 177, 177);
+}

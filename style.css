@@ -278,3 +278,9 @@ text-align: center;
   color: rgb(88, 204, 2);
 }
 
+.s3-text p {
+  font-size: min(4vw, 1.1rem);
+  padding-right: 30px;
+  color: rgb(145, 144, 144);
+}
+

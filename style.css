@@ -172,3 +172,9 @@ text-align: center;
   flex-wrap: wrap;
 }
 
+.s1-text {
+  flex: 1 1 40%;
+  max-width: 600px;
+  min-width: 300px;
+}
+

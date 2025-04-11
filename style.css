@@ -211,94 +211,8 @@ text-align: center;
   height: auto;
 }
 
-.section-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5vh 5vw;
-  gap: 5vw;
-  flex-wrap: wrap;
-}
-
-.s2-text {
-  flex: 1 1 40%;
-  max-width: 600px;
-  min-width: 300px;
-}
-
-.s2-text h2 {
-  font-size: min(6vw, 3rem);
-  font-weight: 800;
-  margin-bottom: 1rem;
-  color: rgb(88, 204, 2);
-}
-
-.s2-text p {
-  font-size: min(4vw, 1.1rem);
-  padding-right: 30px;
-  color: rgb(145, 144, 144);
-}
-
-.s2-img {
-  flex: 1 1 40%;
-  min-width: 300px;
-  max-width: 600px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.s2-img img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
-.section-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5vh 5vw;
-  gap: 5vw;
-  flex-wrap: wrap;
-}
-
-.s3-text {
-  flex: 1 1 40%;
-  max-width: 600px;
-  min-width: 300px;
-}
-
-.s3-text h2 {
-  font-size: min(6vw, 3rem);
-  font-weight: 800;
-  margin-bottom: 1rem;
-  color: rgb(88, 204, 2);
-}
-
-.s3-text p {
-  font-size: min(4vw, 1.1rem);
-  padding-right: 30px;
-  color: rgb(145, 144, 144);
-}
-
-.s3-img {
-  flex: 1 1 40%;
-  min-width: 300px;
-  max-width: 600px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.s3-img img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
+.section-2,
+.section-3,
 .section-4 {
   display: flex;
   flex-direction: row;
@@ -309,26 +223,33 @@ text-align: center;
   flex-wrap: wrap;
 }
 
+.s2-text,
+.s3-text,
 .s4-text {
   flex: 1 1 40%;
   max-width: 600px;
   min-width: 300px;
 }
 
+.s2-text h2,
+.s3-text h2,
 .s4-text h2 {
   font-size: min(6vw, 3rem);
   font-weight: 800;
   margin-bottom: 1rem;
   color: rgb(88, 204, 2);
-  padding-right: 2em;
 }
 
+.s2-text p,
+.s3-text p,
 .s4-text p {
   font-size: min(4vw, 1.1rem);
   padding-right: 30px;
   color: rgb(145, 144, 144);
 }
 
+.s2-img,
+.s3-img,
 .s4-img {
   flex: 1 1 40%;
   min-width: 300px;
@@ -338,8 +259,14 @@ text-align: center;
   flex-wrap: wrap;
 }
 
+.s2-img img,
+.s3-img img,
 .s4-img img {
   width: 100%;
   max-width: 600px;
   height: auto;
+}
+
+.s4-text h2 {
+  padding-right: 20px;
 }

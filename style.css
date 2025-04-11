@@ -196,3 +196,13 @@ text-align: center;
   color: rgb(4, 180, 180);
 }
 
+.s1-img {
+  flex: 1 1 40%;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+

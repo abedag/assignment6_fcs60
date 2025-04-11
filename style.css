@@ -185,4 +185,14 @@ text-align: center;
   color: rgb(88, 204, 2);
 }
 
+.s1-text p {
+  font-size: min(4vw, 1.1rem);
+  padding-right: 30px;
+  color: rgb(145, 144, 144);
+}
+
+.s1-text p a {
+  text-decoration: none;
+  color: rgb(4, 180, 180);
+}
 

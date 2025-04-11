@@ -323,3 +323,9 @@ text-align: center;
   padding-right: 2em;
 }
 
+.s4-text p {
+  font-size: min(4vw, 1.1rem);
+  padding-right: 30px;
+  color: rgb(145, 144, 144);
+}
+

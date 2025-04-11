@@ -249,3 +249,9 @@ text-align: center;
   flex-wrap: wrap;
 }
 
+.s2-img img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+

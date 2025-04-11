@@ -178,3 +178,11 @@ text-align: center;
   min-width: 300px;
 }
 
+.s1-text h2 {
+  font-size: min(6vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: rgb(88, 204, 2);
+}
+
+

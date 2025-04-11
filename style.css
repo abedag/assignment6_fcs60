@@ -52,22 +52,23 @@ font-size: 1rem;
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  width: 950px;
+  width: 100%;
   gap: 80px;
-  padding: 48px 0 20px 48px;
-  margin: 80px 56px 80px 98px;
+  padding: 48px 0 20px 5vw;
+  margin: 80px auto;
 }
 
 .login {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .login > h1 {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   color: rgb(75, 75, 75);
-text-align: center;
+  text-align: center;
 }
 
 .get-started {
@@ -78,14 +79,11 @@ text-align: center;
   margin-top: 20px;
   width: 25vw;
   height: 8vh;
-  position: sticky;
-  top: 0;
-  right: 0;
   border-radius: 12px;
   border: transparent;
   border-bottom: 4px solid rgb(73, 167, 1);
   border-top: 4px solid rgb(88, 204, 2);
-
+  align-items: center;
 }
 
 .get-started:active {
@@ -100,12 +98,11 @@ text-align: center;
   font-size: 100%;
   width: 25vw;
   height: 8vh;
-  position: sticky;
-  top: 0;
-  right: 0;
+
   border-radius: 12px;
   border: 2px solid rgb(182, 177, 177);
   border-bottom: 4px solid rgb(182, 177, 177);
+  align-items: center;
 }
 
 .login-button:active {

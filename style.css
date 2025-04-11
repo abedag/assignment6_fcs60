@@ -315,3 +315,11 @@ text-align: center;
   min-width: 300px;
 }
 
+.s4-text h2 {
+  font-size: min(6vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: rgb(88, 204, 2);
+  padding-right: 2em;
+}
+

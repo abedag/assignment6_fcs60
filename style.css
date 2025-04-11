@@ -210,3 +210,14 @@ text-align: center;
   max-width: 600px;
   height: auto;
 }
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vh 5vw;
+  gap: 5vw;
+  flex-wrap: wrap;
+}
+
